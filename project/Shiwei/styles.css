@@ -1,0 +1,352 @@
+@media screen and (min-width:1050px){
+    #start_box
+{
+    display:flex;
+    box-shadow: 0 0.25rem 0.25rem 0 rgb(0 0 0 / 31%);
+    position: fixed;
+    background: #fff;
+    right: 0;
+    left: 0;
+}    
+
+#title{
+    text-decoration: none;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-style:inherit;
+    padding:5px 30px 5px;
+    color:black;
+    font-size: 3em;
+}
+
+.nav{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:"Times New Roman",Georgia,Serif;
+    padding-left:1em;
+    color:black;
+    display: inline-flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.body{
+    margin: 0%;
+}
+
+#myblog{
+    margin-left: auto;
+    padding-right: 1em;
+    float: right;
+}
+
+#mine{
+    width: 90%;
+    margin-top: 4em;
+}
+
+#profile{
+    padding-left: 2em;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+#name1{
+    font-family: Georgia,Serif;
+    font-size: 2em;
+    margin: 2%;
+}   
+
+#name2{
+    font-family: SimSun; 
+    font-size: 3.5em;
+    margin: 2%;
+    font-weight: bolder
+} 
+
+.network_icon{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 0ch;
+}
+
+#github{
+    height: 30px;
+}
+#wechat{
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 1em;
+}
+ 
+#intro{
+    box-sizing: border-box;
+    float: left;
+    width: 75%;
+    margin-top: 2em;
+    padding-left: 1em;
+    font-size: 1.5em;
+   ;
+}
+
+.container{
+    padding-top: 3em;
+    box-sizing: border-box;
+    float: left;
+}
+
+.text{
+    margin-top:0.2em;
+    margin-bottom: 0.2em;
+    font-family: Times New Roman;
+}
+
+#QR{
+    height: 15em;
+    position: absolute;
+    display: none;
+}
+
+
+#quote{
+    display: grid;
+    place-items: center;
+    padding-top: 0em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hline{
+    background-image: linear-gradient(to right,rgb(233, 231, 231),#333,rgb(233, 231, 231));
+}
+
+#line1{
+    margin-top: 200px;
+}
+#work-title{
+    font-size: 3em;
+    padding-left: 0.5em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#line2{
+    margin-top: 20em;
+}
+
+#work-list{
+    margin-left: 2.5em;
+}
+#work1{
+    font-size: 3em;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    text-decoration:none;
+    color:black
+
+}
+#box1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+} 
+#education{
+    font-size: 3em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}   
+.school{
+    font-size: 1.8em;
+    padding-left: 0.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+}
+
+
+@media screen and (max-width:1050px){
+    #start_box
+    {
+        box-sizing: border-box;
+        box-shadow: 0 0.25rem 0.25rem 0 rgb(0 0 0 / 31%);
+        position: fixed;
+        background: #fff;
+        right: 0;
+        left: 0;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }    
+    
+    #title{
+        text-decoration: none;
+        font-family:"Times New Roman",Georgia,Serif;
+        padding:5px 30px 5px;
+        color:black;
+        font-size: 5em;
+        margin: auto;
+    }
+    
+    .nav{
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family:"Times New Roman",Georgia,Serif;
+        padding-left:1em;
+        color:black;
+        display: inline-flex;
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .body{
+        margin: 0%;
+    }
+    
+    #myblog{
+        display: none;
+    }
+    
+    #mine{
+        width: 90%;
+        margin-top: 4em;
+    }
+    
+    #profile{
+        padding-left: 2em;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    #name1{
+        font-family: Georgia,Serif;
+        font-size: 5em;
+        margin: 2%;
+    }   
+    
+    #name2{
+        font-family: SimSun; 
+        font-size: 7.5em;
+        margin: 2%;
+        font-weight: bolder
+    } 
+    
+    .network_icon{
+        list-style: none;
+        display: inline-flex;
+        flex-direction: row;
+        padding-left: 0ch;
+    }
+    
+    #github{
+        height: 70px;
+    }
+    #wechat{
+        height: 70px;
+        margin-top: 4px;
+        margin-left: 3em;
+    }
+     
+    #intro{
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+        margin-top: 2em;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 1.5em;
+       ;
+    }
+    
+    .container{
+        padding-top: 3em;
+        box-sizing: border-box;
+        float: left;
+        
+    }
+    
+    .text{
+        margin-top:0.2em;
+        margin-bottom: 0.2em;
+        font-size: 2em;
+        font-family: Times New Roman;
+    }
+    
+    #QR{
+        height: 15em;
+        position: absolute;
+        display: none;
+    }    
+
+    #prize{
+        display: none;
+    }
+
+    #history{
+        display: none;
+    }
+
+    #work{
+        display: none;
+    }
+
+    #quote{
+        display: grid;
+        font-size: 1.5em;
+        place-items: center;
+        padding-top: 0em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .hline{
+        background-image: linear-gradient(to right,rgb(233, 231, 231),#333,rgb(233, 231, 231));
+    }
+    
+    #line1{
+        margin-top: 200px;
+    }
+    #work-title{
+        font-size: 3em;
+        padding-left: 0.5em;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+
+    }
+    #line2{
+        margin-top: 100em;
+    }
+    
+    #work-list{
+        margin-left: 1em;
+        margin-bottom: 10em;
+    }
+    #work1{
+        font-size: 3em;
+        font-family: 'Courier New';
+        font-weight: bolder;
+        text-decoration:none;
+        color:black
+    
+    }
+    #education{
+        margin-top: 3em;
+        padding-left: 0.5em;
+        font-size: 3em;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+    }   
+    .school{
+        font-size: 1.8em;
+        padding-left: 0.5em;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
+
+
+
